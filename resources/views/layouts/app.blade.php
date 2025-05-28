@@ -67,7 +67,7 @@
 
                             <a href="/estrategia" class="block px-4 py-2 hover:bg-blue-100">🎯 Identificación Estratégica</a>
                             <a href="/matrizcame" class="block px-4 py-2 hover:bg-blue-100">🧩 Matriz CAME</a>
-                            <a href="/resumen-ejecutivo" class="block px-4 py-2 hover:bg-blue-100">📋 Resumen del Plan Ejecutivo</a>
+                            <a href="/resumen" class="block px-4 py-2 hover:bg-blue-100">📋 Resumen del Plan Ejecutivo</a>
                         @else
                             {{-- Desactivados --}}
                             <span class="block px-4 py-2 text-gray-400 cursor-not-allowed">🎯 Objetivos (Seleccione un plan)</span>

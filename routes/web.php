@@ -10,6 +10,8 @@ use App\Http\Controllers\AnalisisFodaController;
 use App\Http\Controllers\MatrizBCGController;
 use App\Http\Controllers\FuerzaPorterController;
 use App\Http\Controllers\PestController;
+use App\Http\Controllers\IdentificacionController;
+use App\Http\Controllers\ResumenController; // Asegúrate de agregar esta línea
 
 Route::get('/', function () {
     return view('welcome');
@@ -42,13 +44,10 @@ Route::middleware(['auth', 'plan.selected'])->group(function () {
     // Guardar FODA
     Route::post('/foda/guardar', [AnalisisFodaController::class, 'guardar'])->name('foda.guardar');
 
-
     // Matriz - bcg
     Route::get('/matriz-bcg', [MatrizBCGController::class, 'index'])->name('matriz-bcg.index');
     Route::post('/matriz-bcg', [MatrizBCGController::class, 'store'])->name('matriz-bcg.store');
     Route::get('/matriz-bcg/resultado', [MatrizBCGController::class, 'resultado'])->name('matriz-bcg.resultado');
-    
-
 
     // Redirección inteligente: index o resultado según exista el análisis
     Route::get('/fuerza_porter/redirigir', function () {
@@ -74,6 +73,10 @@ Route::middleware(['auth', 'plan.selected'])->group(function () {
 
     // Registrar todo menos `show`
     Route::resource('cadena-valor', CadenaValorController::class)->except(['show']);
+
+    // Rutas para el Resumen Ejecutivo
+    Route::resource('resumen', ResumenController::class);
+    
 });
 
 require __DIR__.'/auth.php';
