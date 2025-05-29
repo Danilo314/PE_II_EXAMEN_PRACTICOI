@@ -7,17 +7,17 @@ Tambien se puso un apartado de Nombre de la empresa.
 Tenemos la fecha de elaboracion el cual se vera por el calendario derecho para seleccionar y poner el dia,mes y año. 
 Tambien hai apartado de Emprendedores el cual se vera los que trabajaron.
 Tambien se vera la mision y vision y valores que se guardaron
-![PlanificaTI](assets/imagen1.png)
+![PlanificaTI](assets/Imagen1.png)
 En esta segunda imagen se vera las unidades Estrategicas el cual se vera la mision, obejtivos generales estrategicos y objetivos especificos
-![PlanificaTI](assets/imagen2.png)
+![PlanificaTI](assets/Imagen2.png)
 En este apartado se visualiza el analisis Foda el cual se vera las debilidades, Amenazas,Fortalezas y Oportunidades.
-![PlanificaTI](assets/imagen3.png)
+![PlanificaTI](assets/Imagen3.png)
 Despues se visualiza la identificacion de estrategia el cual se vera en la Matriz de Foda
-![PlanificaTI](assets/imagen4.png)
+![PlanificaTI](assets/Imagen4.png)
 Despues se vera las acciones competitivas que se enumerara depende a las acciones.
-![PlanificaTI](assets/imagen5.png)
+![PlanificaTI](assets/Imagen5.png)
 y por ultimo las conclusiones respectivas de todo.
-![PlanificaTI](assets/imagen6.png)
+![PlanificaTI](assets/Imagen6.png)
 
 Para entrar al proyecto primero:
 
