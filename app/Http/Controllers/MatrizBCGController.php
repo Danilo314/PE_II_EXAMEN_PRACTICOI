@@ -1,12 +1,12 @@
 <?php
 
 namespace App\Http\Controllers;
-
+     
 use App\Models\MatrizBCG;
 use App\Models\PlanEstrategico;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Session;
-
+  
 class MatrizBCGController extends Controller
 {
     public function index()

@@ -11,13 +11,14 @@
             + Nuevo Objetivo
         </a>
     </div>
-
+  
     @if ($generales->isEmpty())
         <div class="bg-yellow-100 border-l-4 border-yellow-500 text-yellow-800 p-4 rounded-lg shadow-sm">
             <p>No hay objetivos estratégicos registrados aún.</p>
         </div>
     @endif
-
+       
+    
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
         @foreach($generales as $general)
             <div class="bg-white border border-gray-200 shadow-md rounded-lg p-5 hover:shadow-lg transition duration-200">
